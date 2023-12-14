@@ -8,9 +8,11 @@
         @vite('resources/css/app.css')
     </head>
 
-    <body class="min-h-[100svh] w-full bg-slate-200">
+    <body class="min-h-[100svh] w-full bg-slate-200 select-none">
 
         @yield('content')
+
+
 
     </body>
 
